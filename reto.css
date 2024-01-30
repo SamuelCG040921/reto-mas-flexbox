@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    font-family: 'Lato', sans-serif;
+    width: 550px;
+  }
+  
+  .container {
+    display: grid;
+    background: turquoise;
+    width: 180px;
+    height: 180px;
+  }
+
+  .box1{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+  }
+
+  .box2{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    align-self: center;
+  }
+
+  .box3{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    align-self: flex-end;
+  }
+
+  .box4{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+  }
+
+  .box5{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+   justify-self: center;
+   align-self: center;
+  }
+
+  .box6{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    justify-self: center;
+    align-self: flex-end;
+  }
+
+  .box7{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    justify-self: flex-end;
+  }
+
+  .box8{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    justify-self: flex-end;
+    align-self: center;
+  }
+
+  .box9{
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
